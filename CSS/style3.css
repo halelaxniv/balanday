@@ -1,0 +1,139 @@
+body{
+	background: #f7e7ce;
+}
+.logo{
+	padding: 240px;
+	border: 2px black solid;
+	background-image: url(../images/logo.png); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+a{
+	text-decoration: none;
+}
+
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	list-style: 0;
+	grid-gap: 10px;
+}
+
+li{
+	padding: 10px;
+	background: #f5f5dc;
+	text-align: center;
+	box-shadow: 0 0 35px #00ffff;
+	color: black;
+	border-style: double;
+	list-style: none;
+	border-radius: 10px;
+}
+
+li:hover{
+	padding: 10px;
+	background: #e080ff;
+	text-align: center;
+	box-shadow: 0 0 35px #7df9ff;
+	color: white;
+	border-style: double;
+	border-radius: 10px;
+}
+
+.showcase3{
+	padding: 420px;
+	border: 2px black solid;
+	border-radius: 10px;
+	background-image: url(../images/weeew.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-family: Algerian;
+	color: #ffffff;
+}
+
+.movies{
+	padding: 50px;
+	border: 2px black solid;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.movies1{
+	padding: 120px;
+	background-image: url(../images/13.gif); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.moviestxt{
+	padding: 12px;
+	border: 2px black solid;
+}
+
+.h4{
+	text-align: center;
+	font-size: 15px;
+}
+.movies2{
+	padding: 50px;
+	border: 2px black solid;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+}	
+
+.movies-2 {
+	padding: 120px;
+	border: 2px black solid;
+	background-image: url(../images/12.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.textkolng-2{
+	padding: 10px;
+	border: 2px black solid;
+}
+.-h4{
+	text-align: center;
+	font-size: 15px;
+}
+.movies3{
+	padding: 50px;
+	border: 2px black solid;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.textkolng-3{
+	padding: 50px;
+	border: 2px black solid;
+}
+
+.movies-3{
+	padding: 129px;
+	border: 2px black solid;
+	background-image: url(../images/9.jpeg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+._h4{
+	text-align: center;
+	font-size: 18px;
+}
+
+.footer {
+	border: 2px black solid;
+	padding: 2px;
+	background: #7fffd4;
+	text-align: center;
+}

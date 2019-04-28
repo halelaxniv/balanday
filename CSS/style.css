@@ -1,0 +1,101 @@
+body{ 
+	background: #f7e7ce;
+}
+.logo{
+	padding: 240px;
+	border: 2px black solid;
+	background-image: url(../images/logo.png); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+a{
+	text-decoration: none;
+}
+
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	list-style: 0;
+	grid-gap: 10px;
+}
+
+li{
+	padding: 10px;
+	background: #f5f5dc;
+	text-align: center;
+	box-shadow: 0 0 35px #00ffff;
+	color: black;
+	border-style: double;
+	list-style: none;
+	border-radius: 10px;
+}
+li:hover{
+	padding: 10px;
+	background: #e080ff;
+	text-align: center;
+	box-shadow: 0 0 35px #7df9ff;
+	color: white;
+	border-style: double;
+	border-radius: 10px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+	background:#f5f5dc;
+	border-style: double;
+	list-style: none;
+	border-radius: 10px;
+	box-shadow: 0 0 35px #00ffff;
+	padding: 20px;
+}
+.box1{
+	grid-template-columns: 1fr;
+	display: grid;
+	border: 2px black solid;
+	border-radius: 10px;
+}
+.box2{
+	grid-template-columns: 1fr;
+	display: grid;
+	border: 2px black solid;
+	border-radius: 10px;
+}
+.h2{
+	font-family: Rockwell;
+}
+.showcase {
+	padding: 250px;
+	border: 2px black solid;
+	background-image: url(../images/1.png); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.pic1{
+	border: 2px black solid;
+	padding: 220px;
+	background-image: url(../images/5.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.motto{
+	border: 2px black solid;
+	padding: 220px;
+	background-image: url(../images/2.png); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.footer {
+	border: 2px black solid;
+	padding: 2px;
+	background: #7fffd4;
+	text-align: center;
+}
